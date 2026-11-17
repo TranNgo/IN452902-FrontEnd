@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Campus Life - Hoạt động sinh viên</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html"><span class="brand-mark">C</span> Campus Life</a>
+    <nav aria-label="Điều hướng chính">
+      <ul class="menu">
+        <li><a href="#home">Trang chủ</a></li>
+        <li><a href="#activities">Hoạt động</a></li>
+        <li><a href="#about">Giới thiệu</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="home">
+    <section class="intro">
+      <p class="eyebrow">KẾT NỐI • TRẢI NGHIỆM • PHÁT TRIỂN</p>
+      <h1>Khám phá hoạt động<br><span>dành cho sinh viên</span></h1>
+      <p class="intro-copy">Tìm một trải nghiệm mới, gặp gỡ những người bạn mới và làm cho thời sinh viên đáng nhớ hơn.</p>
+    </section>
+
+    <section id="activities" class="activities">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">LỊCH SỰ KIỆN</p>
+          <h2>Hoạt động nổi bật</h2>
+        </div>
+        <span class="section-note">Cập nhật liên tục</span>
+      </div>
+
+      <form id="search-form" class="search-form">
+        <label class="visually-hidden" for="keyword">Tìm hoạt động</label>
+        <input type="search" id="keyword" name="keyword" placeholder="Bạn muốn tham gia hoạt động nào?">
+        <button type="submit">Tìm kiếm <span aria-hidden="true">→</span></button>
+      </form>
+      <p id="status" class="status" role="status" aria-live="polite">Đang tải hoạt động…</p>
+      <div id="event-list" class="event-list"></div>
+    </section>
+
+    <section id="about" class="about">
+      <strong>Campus Life</strong>
+      <p>Mỗi hoạt động là một cơ hội để bạn học hỏi và trưởng thành.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">© 2026 Campus Life · Cùng bạn tạo nên thanh xuân</footer>
+  <script src="js/app.js"></script>
+</body>
+</html>
